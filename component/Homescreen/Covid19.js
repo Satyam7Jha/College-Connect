@@ -82,6 +82,7 @@ export default function Covid19() {
           alignItems: "center",
           borderColor: MainAppColor,
           borderBottomWidth: 5,
+          
         }}
       >
         <View style={{ alignItems: "center", justifyContent: "center" }}>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import * as Location from 'expo-location';
 import { Platform, Text, View, StyleSheet, Image } from 'react-native';
-import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
+//import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 
 
 

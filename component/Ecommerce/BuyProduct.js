@@ -8,6 +8,7 @@ import {
   Image,
   Button,
   Linking,
+  StyleSheet,
 } from "react-native";
 import { DarkAppColor, MainAppColor, MainFontColor } from "../../assets/Color";
 

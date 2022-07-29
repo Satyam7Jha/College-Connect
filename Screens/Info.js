@@ -1,28 +1,28 @@
-import * as React from "react";
-import { Text, View, SafeAreaView } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import Newss from "../component/Information/Newss";
-import VTU from "../component/Information/VTU";
-import { blue, DarkAppColor, MainAppColor } from "../assets/Color";
-import Gellery from "../component/Information/Gallery";
+import * as React from 'react'
+import { Text, View, SafeAreaView } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native'
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
+import Newss from '../component/Information/NewsFeed/Newss'
+import VTU from '../component/Information/VTU'
+import { blue, DarkAppColor, MainAppColor } from '../assets/Color'
+import Gellery from '../component/Information/Gallery'
 
 function News() {
-  return <Newss />;
+  return <Newss />
 }
 
 function VTU_info() {
-  return <VTU />;
+  return <VTU />
 }
 
 function Test() {
-  return <Gellery />;
+  return <Gellery />
 }
 
-const Tab = createMaterialTopTabNavigator();
+const Tab = createMaterialTopTabNavigator()
 
 export default function App() {
-  console.log("informatin")
+  console.log('informatin')
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <NavigationContainer independent={true}>
@@ -31,8 +31,8 @@ export default function App() {
             swipeEnabled: false,
 
             tabBarActiveTintColor: blue,
-            tabBarInactiveTintColor: "white",
-            tabBarLabelStyle: { fontSize: 15, fontWeight: "bold" },
+            tabBarInactiveTintColor: 'white',
+            tabBarLabelStyle: { fontSize: 15, fontWeight: 'bold' },
             tabBarStyle: { backgroundColor: DarkAppColor },
             tabBarIndicatorStyle: { backgroundColor: blue, height: 5 },
           }}
@@ -43,5 +43,5 @@ export default function App() {
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaView>
-  );
+  )
 }

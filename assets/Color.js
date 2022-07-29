@@ -1,4 +1,4 @@
-export const MainAppColor = "#3e4855"
+export const MainAppColor = "rgb(35, 45, 55)"
 export const DarkAppColor = "#151b24"
 export const MainFontColor = "#a9a9a9"
 export const white = "white"
